@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Chappa Vasantha</title>
+    <link rel="stylesheet" href="mystyles.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="name-animation" id="name-animation"></div>
+        <p>Web Developer | Software Engineer | CSE M.Tech Student</p>
+        <nav>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <ul class="nav-links" role="navigation" aria-hidden="true">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+
+    <!-- About Section -->
+    <section id="about" class="section hidden">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <img src="passportpic.jpg.jpg" alt="Profile picture of Kotha Sumanth" class="profile-img">
+            <div class="about-text">
+                <p>
+                    Hello! Chappa Vasantha, an enthusiastic web developer and software engineer currently pursuing an M.Tech in Computer Science and Engineering. I have experience in developing web applications using modern tools and technologies and am passionate about AI and Machine Learning. I enjoy working in a fast-paced, challenging environment that allows continuous growth and learning.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section hidden">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Vegetable Plant Leaf Disease Image Classification Using Convolutional Neural Network,ML</h3>
+            <p>
+                These images were used through the machine learning process specifically through the Convolutional Neural Networks (CNN) in order to build different models. Neural networks such as CNN, which learns a hierarchy of features as it sees more and more of the images, thus can classify images.
+            </p>
+        </div>
+        <div class="project">
+            <h3>SMART NOTICE BOARD BY USING BLUETOOTH</h3>
+            <p>
+                Notice board is aprimary thing in any institution/organization or public utility places like bus stations, railway
+                stations and parks. But sticking various notices day-to-day is a difficult process. The Notice
+                board is a common display for effective mode of providing information to the people.
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section hidden">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li>C</li>
+            <li>Python</li>
+            <li>Java</li>
+            <li>C++</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Node.js</li>
+            <li>React.js</li>
+            <li>SQL</li>
+            <li>DBMS</li>
+            <li>MongoDB</li>
+            <li>Git & GitHub</li>
+        </ul>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section hidden">
+        <h2>Education</h2>
+        <div class="education-item">
+            <h3>M.Tech in Computer Science and Engineering</h3>
+            <p>KL University, 2025</p>
+        </div>
+         <div class="education-item">
+            <h3>B.Tech in Electonics and Communication Engineering</h3>
+            <p>Visakha Technical Campus, 2023</p>
+        </div>
+        <div class="education-item">
+            <h3>Intermediate</h3>
+            <p>Thandrapaparaya Junior College, 2019</p>
+        </div>
+        <div class="education-item">
+            <h3>10th</h3>
+            <p>Z.P High School, 2017</p>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="section hidden">
+        <h2>Certifications</h2>
+        <ul>
+            <li>AWS Academy Graduate (2024)</li>
+            <li>Scrum Fundamentals (2024)</li>
+            <li>Internet of Things (2023)</li>
+            <li>Embeded Systems (2023)</li>
+    
+        </ul>
+    </section>
+
+    <!-- Achievements & Volunteer Experience -->
+    <section id="experience" class="section hidden">
+        <h2>Achievements & Volunteer Experience</h2>
+        <ul>
+            <li>Organizer, MECCA Fest 2022</li>
+            <!--<li>Member, FACE (Forum for Aspiring Computer Engineers)</li>-->
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section hidden">
+        <h2>Contact</h2>
+        <form id="contactForm">
+            <label for="name">Name</label>
+            <input type="text" id="name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" required>
+            <label for="message">Message</label>
+            <textarea id="message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Chappa Vasantha. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
